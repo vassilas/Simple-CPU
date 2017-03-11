@@ -52,7 +52,7 @@ microcoded control unit, either of which can be simulated by
 this package. 
 
 # Microcoded Control Unit
-https://github.com/vassilas/Simple-CPU/blob/master/images/micro_img.png
+![alt tag](https://github.com/vassilas/Simple-CPU/blob/master/images/micro_img.png)
 
 # Hard-wired control Unit
-https://github.com/vassilas/Simple-CPU/blob/master/images/hard_img.png
+![alt tag](https://github.com/vassilas/Simple-CPU/blob/master/images/hard_img.png)
