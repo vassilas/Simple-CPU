@@ -45,7 +45,7 @@ those bits are unused. The instructions were chosen to
 represent instructions and instruction types commonly found
 in processors of this level. 
 
-![alt tag](https://github.com/vassilas/Simple-CPU/blob/master/images/inst_img2.png)
+![alt tag](https://github.com/vassilas/Simple-CPU/blob/master/images/inst_img.png)
 
 The Very Simple CPU can use either a hard-wired or
 microcoded control unit, either of which can be simulated by
