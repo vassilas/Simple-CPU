@@ -27,11 +27,7 @@ fetch, decode, and execute instructions. These registers are
 fairly standard, and are found in many CPUs. The Very
 Simple CPU contains the following registers.
 
-· A 6-bit Address Register, AR, which supplies an address
-to memory via address pins A[5..0]
-· A 6-bit Program Counter, PC, which contains the
-address of the next instruction to be executed
-· An 8-bit Data Register, DR, which receives instructions
-and data from memory via data pins D[7..0]
-· A 2-bit Instruction Register, IR, which stores the opcode
-fetched from memory
+- A 6-bit Address Register, AR, which supplies an address to memory via address pins A[5..0]
+- A 6-bit Program Counter, PC, which contains the address of the next instruction to be executed
+- An 8-bit Data Register, DR, which receives instructions and data from memory via data pins D[7..0]
+- A 2-bit Instruction Register, IR, which stores the opcode fetched from memory
