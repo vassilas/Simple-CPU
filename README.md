@@ -32,4 +32,27 @@ Simple CPU contains the following registers.
 - An 8-bit Data Register, DR, which receives instructions and data from memory via data pins D[7..0]
 - A 2-bit Instruction Register, IR, which stores the opcode fetched from memory
 
-![alt tag](https://github.com/vassilas/Simple-CPU/blob/master/images/arch_img.png)
+![alt tag](https://github.com/vassilas/Simple-CPU/blob/master/images/arch_img2.png)
+
+
+ The instruction set for this CPU contains four
+instructions. These instructions are encoded using only the
+two high-order bits of the instruction code. For instructions
+that require the memory address of an operand or a branch
+address, the remaining six bits of the instruction code
+specify that address. For register reference instructions,
+those bits are unused. The instructions were chosen to
+represent instructions and instruction types commonly found
+in processors of this level. 
+
+![alt tag](https://github.com/vassilas/Simple-CPU/blob/master/images/inst_img2.png)
+
+The Very Simple CPU can use either a hard-wired or
+microcoded control unit, either of which can be simulated by
+this package. 
+
+# Microcoded Control Unit
+https://github.com/vassilas/Simple-CPU/blob/master/images/micro_img.png
+
+# Hard-wired control Unit
+https://github.com/vassilas/Simple-CPU/blob/master/images/hard_img.png
